@@ -11,8 +11,9 @@ Manbada g'alati kodlar mavjud. Loyihani ochiq manbali qilishdan maqsad, ko'proq 
 👉Tutorials.uz telegram kanali : https://t.me/tutorialsuz<br/>
 👉Tutorials.uz telegram guruhi: https://t.me/tutorialsgroup<br/>
 👉Tutorials.uz vebsayti : https://tutorials.uz<br/>
-👉Tutorials.uz youtube kanali : https://youtube.com/tutorialsuz<br/>
+👉Tutorials.uz youtube kanali : https://youtube.com/tutorialsuz <br/>
 ============================================
+<br/><br/><br/>
 <b>Open source code of the Tutorials.uz</b>
 
 Please, follow the copyright. Author -  <b>Sanjarbek Sobirjonov(telegram @SobirjonovSanjarbek)</b>. 
