@@ -1,0 +1,10 @@
+RewriteEngine On
+
+Options -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+ErrorDocument 403 /app/views/error/403.php
+
+RewriteRule . index.php [NC,L]
