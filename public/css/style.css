@@ -1,0 +1,91 @@
+@font-face {
+font-family: 'Opificio Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Opificio Regular'), url('../fonts/Opificio_regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Opificio Regular-Rounded';
+font-style: normal;
+font-weight: normal;
+src: local('Opificio Regular-Rounded'), url('Opificio_rounded.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Opificio Light';
+font-style: normal;
+font-weight: normal;
+src: local('Opificio Light'), url('Opificio_light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Opificio Light-Rounded';
+font-style: normal;
+font-weight: normal;
+src: local('Opificio Light-Rounded'), url('Opificio_light_rounded.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Opificio Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Opificio Bold'), url('Opificio_Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Opificio Bold-Rounded';
+font-style: normal;
+font-weight: normal;
+src: local('Opificio Bold-Rounded'), url('Opificio_Bold_rounded.woff') format('woff');
+}
+*{
+	box-sizing: border-box;
+	font-family: 'Questrial', sans-serif;
+}
+.html{
+	background-color: #fff;
+	text-align: center;
+}
+.hoverable {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.hoverable:hover {
+  box-shadow: 0 15px 17px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.22);
+}
+figcaption{
+	padding: 5px 0 15px 0;
+}
+.html a{
+	text-decoration: none;
+	color: black;
+}
+.text{
+	border-bottom: 3px solid #00e5ae;
+	width: 150px;
+	padding: 2px;
+}
+p.title{
+	color: #1c2a48;
+	font-size: 25px;
+}
+@media (max-width: 700px){
+  h5{
+    font-size: 15px;
+  }
+  p.title{
+    font-size: 20px;
+  }
+  .menu p{
+  text-align: center;
+}
+}
+@media(min-width:770px){.mobile-show{display: none;}}
+
+@media(max-width: 700px){.mobile-show{display: block;}
+.mobile-hide{display: none;}}

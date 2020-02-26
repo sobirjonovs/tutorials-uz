@@ -1,0 +1,57 @@
+@media screen and (max-width: 750px){
+  .content-wrapper{
+    display: flex;
+  }
+  .content {
+    flex-basis: auto;
+  }
+  .card-title{
+    font-size: 15px;
+  }
+}
+.content-wrapper:nth-child(1) p{
+  font-size: 15px;
+  font-family: monospace;
+}
+.wrapping{
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+.menu{
+  flex-basis: 60%;
+  margin-bottom: 1px;
+}
+.dropdown-item::after a.dropdown-item:hover {
+  content: "\00BB";
+}
+.content {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.accordion > .card{
+  margin-top: 10px;
+  background-color: #00e5ae;
+  box-shadow: none;
+}
+.card a{
+  color: white;
+}
+.drop{
+  margin-left: 10px;
+}
+.menu a{
+  text-align: center;
+}
+.wrap { position: relative; }
+i.fa-filter { position: absolute; top: 10px; left: 10px; }
+@media screen and (max-width: 760px)
+{
+  .mobile{
+    display: flex;
+    justify-content: center;
+  }
+}
+a.post-text:hover{
+  color: yellow;
+}
